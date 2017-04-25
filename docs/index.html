@@ -7,11 +7,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin: -150px 0px 0px -200px;
 }
-.breathe {
+.breath {
     margin-top: 150px;
     margin-left: 200px;
 	width: 20px;
@@ -32,15 +32,7 @@
  
 <body>
 <div class="container">
-  <div class="breathe" id="aaa"></div>
+  <div class="breath"></div>
 </div>
-<script>
-console.log("aaa");
-var selector = document.getElementById("aaa");
-selector.addEventListener("transitionend",function(e){
-console.log(e);
-    // animation iteration (step)
-});
-</script>
 </body>
 </html>
